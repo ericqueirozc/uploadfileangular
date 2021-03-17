@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  afuConfig = {
+    uploadAPI: {
+      url:"https://example-file-upload-api"
+    }
+};
   title = 'fileuploader';
 }
